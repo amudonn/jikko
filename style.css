@@ -1,0 +1,56 @@
+body{
+  position: relative;
+}
+
+.jikko {
+  color: chartreuse;
+
+  text-align: center;
+  font-size:  75px;
+}
+.jikkosugitekusa{
+  font-size: 50px;
+  position: absolute;
+  right: 0;
+}
+.zikko {
+  width: 900px;
+  height: 500px;
+
+  border: 1px solid black;
+
+
+  position: relative;
+}
+
+.zjikko {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.netya-dameda{
+  width: 200px;
+}
+.sho-ji{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.kiti-yo{
+  font-size: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+}
+.saisyujikko{
+  height: 50px;
+  width: 800px;
+  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  font-size: 45px;
+  letter-spacing: 20px;
+}
