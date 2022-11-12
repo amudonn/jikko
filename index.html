@@ -18,18 +18,23 @@
   <div class="zjikko">
     <h1 class="jikko">しろくまじっこタイピング</h1>
     <div class="zikko">
-      <div class="sho-ji">
-        <img class="netya-dameda" src="https://v1.sirokumaclicker.nikachu.net/img/sirokuma.jpg">
-        <div class="jikkosugitekusa">0ポイント</div>
-      </div>
+      <div id="shirokumabaka">
+        <div class="sho-ji">
+          <img id="shirokuma_misyou" class="netya-dameda" src="https://v1.sirokumaclicker.nikachu.net/img/sirokuma.jpg">
+          <div id="shirokumasiskon" class="jikkosugitekusa">0ポイント</div>
+        </div>
         <div class="kiti-yo">しろくまじっこ</div>
-        <div><input onkeyup="shirokumarorikon()" class="saisyujikko" id="textzikkou" type="text"></div>
-
+        <div><input onkeyup="shirokumarorikon(event)" onkeydown="sizechange();" class="saisyujikko" id="textzikkou" type="text"></div>
       </div>
 
     </div>
 
-    <script src="/main.js"></script>
+    <div></div>
+  </div>
+
+  </div>
+  <script src="/main.js"></script>
 </body>
 
 </html>
+
