@@ -16,7 +16,7 @@ function shirokumarorikon(event) {
 }
 document.querySelector(`.saisyujikko`).addEventListener(`onkeyup`, shirokumajipo())
 function shirokumajipo() {
-    let time = 10000
+    let time = 10
     setInterval(() => {
         time -= 1
         if (time == 0) {
