@@ -5,7 +5,8 @@ function shirokumarorikon(event) {
         document.getElementById(`textzikkou`).value = ``
     }
     document.getElementById('shirokuma_misyou').style.width = "200px";
-    if (document.querySelector(`#textzikkou`).value == `shirokumajikko` || document.querySelector(`#textzikkou`).value == `shirokumazikko`) {
+    const value = document.querySelector(`#textzikkou`).value;
+    if (value == `shirokumajikko` || value == `shirokumazikko` || value == `sirokumajikko` || value == `sirokumazikko`) {
         jikkopoint = jikkopoint + 1
         document.querySelector(`#textzikkou`).value = ''
         document.querySelector(`#shirokumasiskon`).innerHTML = jikkopoint + `ポイント`
@@ -16,7 +17,7 @@ function shirokumarorikon(event) {
 }
 document.querySelector(`.saisyujikko`).addEventListener(`onkeyup`, shirokumajipo())
 function shirokumajipo() {
-    let time = 10
+    let time = 60
     setInterval(() => {
         time -= 1
         if (time == 0) {
